@@ -1,0 +1,36 @@
+{
+  "name": "javascript-professional",
+  "version": "1.0.0",
+  "description": "Development of platzi video media player",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/FernandoJVela/javascript-professional.git"
+  },
+  "keywords": [
+    "javascript",
+    "plugin",
+    "media",
+    "player"
+  ],
+  "author": "Fernando Vela [fer.velav@gmail.com\u001b[1;3m]",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FernandoJVela/javascript-professional/issues"
+  },
+  "homepage": "https://github.com/FernandoJVela/javascript-professional#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.2.3"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "dependencies": {
+    "@fernandojvela/platzimediaplayer": "^1.0.0"
+  }
+}
